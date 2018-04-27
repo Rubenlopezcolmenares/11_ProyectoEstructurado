@@ -17,7 +17,7 @@
 
 int main(void)
 {
-  int array[ROW][COL];
+  float array[ROW][COL];
   srand((unsigned) time(NULL));
 
   /*Inicializar el array con los valores enteros aleatorios 1- 1000*/
@@ -44,7 +44,7 @@ printf("\n");
       printf("{");
     for(int j=0;j<COL; j++) /*ciclo que controla las columnas del array*/
     {
-      printf("%d ", array[i][j]);
+      printf("%f ", array[i][j]);
     }
     printf("}\n");
    }
